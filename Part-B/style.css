@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+  }
+  body {
+    background-color: #fafafa;
+    font-family: sans-serif;
+  }
+  .header-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    background: rgb(36, 12, 0);
+    background: linear-gradient(
+      90deg,
+      rgba(36, 12, 0, 1) 0%,
+      rgba(66, 121, 138, 0.7525603991596639) 0%,
+      rgba(255, 0, 114, 1) 100%
+    );
+  }
+  .movie-logo {
+    height: 30rem;
+    width: 20rem;
+    border-radius: 5px;
+    margin-right: 40px;
+  }
+  .movie-title {
+    font-size: 2.5rem;
+    font-style: italic;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #fff;
+  }
+  .rating-text {
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 1rem;
+  }
+  
+  .book-button {
+    padding: 1rem 2rem;
+    background-color: yellow;
+    outline: none;
+    border: none;
+    margin: 1rem 0;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .about {
+    padding: 20px;
+  }
+  .about-text {
+    font-size: 1.4rem;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .about-subtext {
+    font-size: 1rem;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .footer {
+    background-color: #222538;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-checkout {
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+  }
+  .footer-text {
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: #fff;
+    margin-top: 1rem;
+    font-style: italic;
+  }
+  .checkout-navbar {
+    padding: 1.5rem 1rem;
+    background-color: #222538;
+    color: white;
+  }
+  .checkout-nav-text {
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+  }
+  .header-container-checkout {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .checkout-header-text {
+    font-size: 2rem;
+  }
+  .input-container {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+  }
+  .input-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem;
+    max-width: 40vw;
+    border-radius: 20px;
+    margin: 10 auto;
+  }
+  .input {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 300px;
+    border: 1px solid transparent;
+  }
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  .input:focus {
+    border-color: #5bff9d;
+    outline: none;
+  }
+  .label {
+    align-self: flex-start;
+    margin-bottom: 5px;
+    font-size: 1rem;
+  }
+  .label-password {
+    margin-top: 2rem;
+  }
+  .input-header-text {
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+  }
+  .create-account-button {
+    margin-top: 1.5rem;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #635bff;
+    color: #fff;
+    font-size: 1rem;
+  }
