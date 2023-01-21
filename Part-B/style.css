@@ -38,7 +38,7 @@
     margin-top: 1rem;
   }
   
-  .book-btn {
+  .book-button {
     padding: 1rem 2rem;
     background-color: yellow;
     outline: none;
@@ -107,11 +107,11 @@
     font-size: 2rem;
   }
   .input-container {
-    padding: 1rem;
+    padding: 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
+    width: 90vw;
   }
   .input-form {
     display: flex;
@@ -137,7 +137,7 @@
     margin: 0;
   }
   .input:focus {
-    border-color: #635bff;
+    border-color: #5bff9d;
     outline: none;
   }
   .label {

@@ -15,7 +15,7 @@
   .signup {
     padding: 10px 30px;
     border-radius: 10px;
-    background-color: #006339;
+    background-color: #63002b;
     outline: none;
     border: none;
     color: #fff;
@@ -23,7 +23,7 @@
     cursor: pointer;
   }
   .input-container {
-    padding: 1rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,8 +36,8 @@
     background-color: #fafafa;
     padding: 1rem;
     margin: 1rem;
-    border-radius: 20px;
-    margin-top: 10px;
+    border-radius: 30px;
+    margin-top: 15px;
   }
   .input {
     border: none;
@@ -69,8 +69,8 @@
     outline: none;
     cursor: pointer;
     border-radius: 20px;
-    background-color: #006339;
-    color: #fff;
+    background-color: #3b0063;
+    color: rgb(255, 255, 255);
     font-size: 1rem;
   }
   .table {
@@ -78,7 +78,8 @@
     margin-top: 1rem;
     text-align: center;
     margin: 0 auto;
-    border-spacing: 10px;
+    border-spacing: 20px;
+    background-image: url('./Images/background1.jpg');
   }
   .menu-header {
     text-align: center;
@@ -94,13 +95,13 @@
     margin-right: 10px;
   }
   .table-subtext {
-    font: 1em sans-serif;
+    font: 1.5em sans-serif;
   }
   .table-header {
     font: 1.5em sans-serif;
   }
   .view-details {
-    color: #006339;
+    color: #000863;
     text-align: center;
     cursor: pointer;
     font: 1.2em sans-serif;
